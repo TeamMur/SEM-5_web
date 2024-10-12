@@ -3,6 +3,7 @@ body {
 	background-color: rgb(39, 39, 39);
 	line-height: 2;
 	font-family: 'Roboto', sans-serif;
+	margin: 0;
 }
 
 /* Заголовок*/
@@ -98,7 +99,7 @@ td:nth-child(3) .card_head {
 input[type='checkbox'] {
 	width: 24px;
 	height: 24px;
-	opacity: 0.75;
+	opacity: 1;
 }
 
 input[type='checkbox']:hover {
@@ -110,26 +111,20 @@ input[type='checkbox']:hover {
 	height: 24px;
 }
 
-td:nth-child(1) .button_delete,
-td:nth-child(1) input[type='checkbox'] {
+td:nth-child(1) .button_delete {
 	background-color: darkgoldenrod;
-	accent-color: darkgoldenrod;
 }
 td:nth-child(1) .button_delete:hover {
 	background-color: orange;
 }
-td:nth-child(2) .button_delete,
-td:nth-child(2) input[type='checkbox'] {
+td:nth-child(2) .button_delete {
 	background-color: green;
-	accent-color: green;
 }
 td:nth-child(2) .card .button_delete:hover {
 	background-color: rgb(0, 184, 0);
 }
-td:nth-child(3).button_delete,
-td:nth-child(3) input[type='checkbox'] {
+td:nth-child(3).button_delete {
 	background-color: gray;
-	accent-color: gray;
 }
 td:nth-child(3) .button_delete:hover {
 	background-color: gainsboro;
