@@ -1,3 +1,4 @@
+//ВСПЛЫВАЮЩЕЕ ОКНО
 function printMousePos(e) {
 	console.log(`Координаты на странице: X = ${e.pageX}, Y = ${e.pageY}`)
 	console.log(
